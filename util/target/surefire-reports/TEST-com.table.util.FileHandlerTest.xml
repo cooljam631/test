@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.table.util.FileHandlerTest" time="1.309" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jamso\Downloads\TableGenerator\util\target\test-classes;C:\Users\jamso\Downloads\TableGenerator\util\target\classes;C:\Users\jamso\Downloads\TableGenerator\model\target\model-1.0-SNAPSHOT.jar;C:\Users\jamso\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\jamso\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\jamso\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jamso\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\jamso\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jamso\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\jamso\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\jamso\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\jamso\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jamso\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-api-mockito2\2.0.9\powermock-api-mockito2-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-api-support\2.0.9\powermock-api-support-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-reflect\2.0.9\powermock-reflect-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-core\2.0.9\powermock-core-2.0.9.jar;C:\Users\jamso\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\jamso\AppData\Local\Temp\surefire7559784445168712662\surefirebooter-20230901100117807_6.jar C:\Users\jamso\AppData\Local\Temp\surefire7559784445168712662 2023-09-01T10-01-13_601-jvmRun1 surefire-20230901100117807_4tmp surefire_1-20230901100117807_5tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jamso\Downloads\TableGenerator\util\target\test-classes;C:\Users\jamso\Downloads\TableGenerator\util\target\classes;C:\Users\jamso\Downloads\TableGenerator\model\target\model-1.0-SNAPSHOT.jar;C:\Users\jamso\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\jamso\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\jamso\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jamso\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\jamso\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jamso\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\jamso\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\jamso\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\jamso\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jamso\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-api-mockito2\2.0.9\powermock-api-mockito2-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-api-support\2.0.9\powermock-api-support-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-reflect\2.0.9\powermock-reflect-2.0.9.jar;C:\Users\jamso\.m2\repository\org\powermock\powermock-core\2.0.9\powermock-core-2.0.9.jar;C:\Users\jamso\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jamso"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jamso\Downloads\TableGenerator\util"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jamso\AppData\Local\Temp\surefire7559784445168712662\surefirebooter-20230901100117807_6.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="jamso"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jamso\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jamso\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\jamso\Downloads\TableGenerator\util"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Common Files\Seagate\VirtualFile\;C:\Program Files (x86)\Common Files\Seagate\VirtualFile64\;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Users\jamso\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\jamso\AppData\Local\Programs\Python\Python310\;C:\Users\jamso\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;C:\Users\jamso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jamso\AppData\Local\spicetify;C:\ProgramData\jamso\atom\bin;C:\Users\jamso\AppData\Local\atom\bin;C:\Users\jamso\.dotnet\tools;C:\Users\jamso\AppData\Local\Microsoft\WindowsApps;C:\Users\jamso\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.3\bin;;C:\Program Files (x86)\Nmap;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="givenExistingFile_whenLoadFromFile_returnFileExists" classname="com.table.util.FileHandlerTest" time="0.053">
+    <system-out><![CDATA[Table data successfully loaded from test_file.txt
+]]></system-out>
+  </testcase>
+  <testcase name="givenNonExistingFile_whenLoadFromFile_returnFileNotExist" classname="com.table.util.FileHandlerTest" time="0.003"/>
+  <testcase name="givenData_whenSaveToFile_returnSavedFile" classname="com.table.util.FileHandlerTest" time="1.209">
+    <system-out><![CDATA[There was an error... Several matching constructors found, please specify the argument parameter types so that PowerMock can determine which method you're referring to.
+Matching constructors in class java.io.FileWriter were:
+java.io.FileWriter( java.lang.String.class )
+java.io.FileWriter( java.io.File.class )
+
+]]></system-out>
+  </testcase>
+  <testcase name="givenNonExistingFile_whenCopyDefaultIfFileNotExist_returnDefaultFile" classname="com.table.util.FileHandlerTest" time="0.015">
+    <system-out><![CDATA[Default file copied successfully from resources.
+]]></system-out>
+  </testcase>
+</testsuite>
